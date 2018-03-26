@@ -1,0 +1,30 @@
+package org.gontuseries.springcore;
+
+public class Restaurant {
+	//String welcomenote;
+	
+	
+	
+	public void greetCustomer(){
+		System.out.println("welcome to my restaurant this is the lyf cycle");
+		
+	}
+	public void init(){
+		System.out.println("bean is initailized");
+	}
+	public void destroy(){
+		System.out.println("bean is destroy now");
+	}
+
+
+	/*public String getWelcomenote() {
+		return welcomenote;
+	}
+
+
+	public void setWelcomenote(String welcomenote) {
+		this.welcomenote = welcomenote;
+	}*/
+
+	
+}

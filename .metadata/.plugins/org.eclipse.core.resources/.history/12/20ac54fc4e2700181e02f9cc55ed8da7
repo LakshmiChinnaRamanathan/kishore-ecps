@@ -1,0 +1,29 @@
+package org.gontuseries.springcore;
+
+public class Restaurant {
+	private String welcomenote;
+
+	public Restaurant() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Restaurant(String welcomenote) {
+		super();
+		this.welcomenote = welcomenote;
+	}
+
+	public String getWelcomenote() {
+		return welcomenote;
+	}
+
+	public void setWelcomenote(String welcomenote) {
+		this.welcomenote = welcomenote;
+	}
+	public void inin(){
+		System.out.println("this is inint part");
+	}
+	public void destroy(){
+		System.out.println("this is destroy method");
+	}
+}

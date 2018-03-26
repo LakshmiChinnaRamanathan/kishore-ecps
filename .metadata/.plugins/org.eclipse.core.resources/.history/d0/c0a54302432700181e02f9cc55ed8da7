@@ -1,0 +1,24 @@
+package org.gontuseries.springcore;
+
+public class Restaurant {
+	//String welcomenote;
+	
+	
+	
+	public void greetCustomer(){
+		System.out.println("welcome to my restaurant");
+		
+	}
+
+
+	/*public String getWelcomenote() {
+		return welcomenote;
+	}
+
+
+	public void setWelcomenote(String welcomenote) {
+		this.welcomenote = welcomenote;
+	}*/
+
+	
+}
